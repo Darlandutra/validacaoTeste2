@@ -18,10 +18,20 @@ public class ValidaCpfTeste {
 		
 		validaCpf = new ValidaCPF();
 	}	
+//	
+//	@Test
+//	public void ValidaCpf() {
+//		Assert.assertTrue(validaCpf.isCPF("00546709184"));
+//	}
+//	
+//	@Test
+//	public void ValidaCpfErro() {
+//		Assert.assertTrue(validaCpf.isCPF("005"));
+//	}
 	
 	@Test
-	public void ValidaCpf() {
-		Assert.assertTrue(validaCpf.isCPF("00546709184"));
+	public void Valida() {
+		Assert.assertTrue(validaCpf.isCPF("000000000191"));
 	}
 	
 //	@Test
